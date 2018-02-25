@@ -1,0 +1,32 @@
+{
+  "name": "bp-html-sass-assets",
+  "version": "0.1.0",
+  "description": "A clean boilerplate to generate a classic web setup",
+  "main": "server.js",
+  "homepage":
+    "https://github.com/fengelz/generator-basic-html-js-scss",
+  "engines": {
+    "node": "5",
+    "npm": "3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fengelz/bp-html-sass-assets.git"
+  },
+  "author": "Sune Fengel",
+  "license": "MIT",
+  "browserify": {},
+  "browser": {
+    "gsap": "./node_modules/gsap/src/minified/TweenMax.min.js"
+  },
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-clean-css": "^2.0.12",
+    "gulp-concat": "^2.6.0",
+    "gulp-file-include": "^0.13.7",
+    "gulp-plumber": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.2"
+  }
+}

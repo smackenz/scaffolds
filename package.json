@@ -1,0 +1,45 @@
+{
+  "name": "@smackenz/scaffolds",
+  "private": true,
+  "version": "0.0.1",
+  "description": "A collection of node package scaffolds",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava",
+    "eslint": "eslint ./index.js, ./**/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/smackenz/scaffolds.git"
+  },
+  "keywords": [
+    "node",
+    "packages",
+    "scaffolds",
+    "baukasten",
+    "electron",
+    "express"
+  ],
+  "author": {
+    "name": "Stuart MacKenzie",
+    "email": "smackenz9@gmail.com",
+    "homepage": "https://smackenz.com"
+  },
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/smackenz/scaffolds/issues"
+  },
+  "eslintConfig": {
+    "extends": "airbnb",
+    "env": {
+      "node": true
+    }
+  },
+  "files": ["lib", "index.js"],
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "homepage": "https://github.com/smackenz/scaffolds#readme"
+}
